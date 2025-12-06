@@ -1,8 +1,9 @@
 using System.Xml.Linq;
+using CodeMedic.Engines;
 using CodeMedic.Models;
 using CodeMedic.Models.Report;
 
-namespace CodeMedic.Engines;
+namespace CodeMedic.Plugins.HealthAnalysis;
 
 /// <summary>
 /// Scans a directory tree for .NET projects and collects initial health information.
